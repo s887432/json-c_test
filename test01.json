@@ -1,0 +1,15 @@
+{
+	"version":"1.0",
+	"params":
+	{
+		"light_switch":1,
+		"light_intensity":21,
+		"led_r":0,
+		"led_g":0,
+		"led_b":0,
+		"uv":114,
+		"temp":28.25,
+		"hum":0
+	}
+}
+
