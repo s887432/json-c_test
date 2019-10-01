@@ -1,7 +1,7 @@
 # json-c_test
 
 ## do install json-c first
-$ git clone heeps://github.com/json-c/json-c.git
+$ git clone heeps://github.com/json-c/json-c.git<br>
 $ cd json-c
 $ ./autogen.sh
 $ ./configure
