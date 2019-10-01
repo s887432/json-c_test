@@ -17,7 +17,7 @@ $ test_01 params.light_switch
 
 ## test01.json
 {<br>
-	"version":"1.0",<br>
+<blockquote>"version":"1.0",<br>
 	"params":<br>
 	{<br>
 		"light_switch":1,<br>
