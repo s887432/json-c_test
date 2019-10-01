@@ -85,11 +85,28 @@ void getValByKey(json_object* jobj, const char *sname)
 int main(int argc, char *argv[])
 {
     json_object *pobj = NULL;
-    pobj = json_object_from_file("test01.json");
-    //getValByKey(pobj,"params.light_switch");
-	//getValByKey(pobj,"version");
+    //pobj = json_object_from_file("test01.json");
 
-	getValByKey(pobj, argv[1]);
+    char * string = "{\
+        \"version\":\"1.0\",\
+        \"params\":\
+            {\
+	        \"light_switch\":1,\
+		    \"light_intensity\":21,\
+		    \"led_r\":0,\
+		    \"led_g\":0,\
+		    \"led_b\":0,\
+		    \"uv\":114,\
+		    \"temp\":28.25,\
+		    \"hum\":0\
+		}\
+        }";
+	
+    pobj = json_tokener_parse(string); 
+    //getValByKey(pobj,"params.light_switch");
+    //getValByKey(pobj,"version");
+
+    getValByKey(pobj, argv[1]);
     return 0;
 }
 
