@@ -17,16 +17,16 @@ $ test_01 params.light_switch
 
 ## test01.json
 {<br>
-<blockquote>"version":"1.0",<br>
-<blockquote>"params":<br>
-<blockquote>{<br>
-<blockquote><blockquote>"light_switch":1,<br>
-<blockquote><blockquote>"light_intensity":21,<br>
-<blockquote><blockquote>"led_r":0,<br>
-<blockquote><blockquote>"led_g":0,<br>
-<blockquote><blockquote>"led_b":0,<br>
-<blockquote><blockquote>"uv":114,<br>
-<blockquote><blockquote>"temp":28.25,<br>
-<blockquote><blockquote>"hum":0<br>
-<blockquote>}<br>
+"version":"1.0",<br>
+"params":<br>
+{<br>
+"light_switch":1,<br>
+"light_intensity":21,<br>
+"led_r":0,<br>
+"led_g":0,<br>
+"led_b":0,<br>
+"uv":114,<br>
+"temp":28.25,<br>
+"hum":0<br>
+}<br>
 }<br>
